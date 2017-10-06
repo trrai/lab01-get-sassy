@@ -24,8 +24,8 @@ p{
 
 .container {
     width: calc(100% - 40px);
-    @include sideMargin(50px);
-    @include displayFlex();
+    @include sideMargin(auto);
+    //@include displayFlex();
 
     ul, ol{
         color: $red

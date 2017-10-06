@@ -6,10 +6,8 @@ p {
 
 .container {
   width: calc(100% - 40px);
-  margin-left: 50px;
-  margin-right: 50px;
-  display: flex;
-  justify-content: start; }
+  margin-left: auto;
+  margin-right: auto; }
   .container ul, .container ol {
     color: red; }
   .container ul {
