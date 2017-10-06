@@ -3,7 +3,15 @@
 
 
 // Put any variable declarations here!
+@mixin sideMargin($margin){
+    margin-left: $margin;
+    margin-right: $margin;
+}
 
+@mixin displayFlex(){
+    display: flex;
+    justify-content: start;
+}
 
 // Put your actual Sassy CSS code here!
 h1{
@@ -16,6 +24,9 @@ p{
 
 .container {
     width: calc(100% - 40px);
+    @include sideMargin(50px);
+    @include displayFlex();
+
     ul, ol{
         color: $red
     }
