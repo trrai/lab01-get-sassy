@@ -1,9 +1,49 @@
 // Put imports here!
-
+@import 'colors';
 
 
 // Put any variable declarations here!
 
 
-
 // Put your actual Sassy CSS code here!
+h1{
+    color:$red
+}
+
+p{
+    color:$navyblue
+}
+
+.container {
+    width: calc(100% - 40px);
+    ul, ol{
+        color: $red
+    }
+
+    ul{
+        font-family: sans-serif;
+
+    }
+
+    ol{
+        font-family: monospace;
+    }
+
+    &.first{
+        p{
+            background-color: $blue
+        }
+    }
+
+    &.second{
+        p{
+            background-color: $orange
+        }
+    }
+
+    &:hover{
+        p{
+            color: white;
+        }
+    }
+}

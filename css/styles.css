@@ -1,0 +1,22 @@
+h1 {
+  color: red; }
+
+p {
+  color: darkblue; }
+
+.container {
+  width: calc(100% - 40px); }
+  .container ul, .container ol {
+    color: red; }
+  .container ul {
+    font-family: sans-serif; }
+  .container ol {
+    font-family: monospace; }
+  .container.first p {
+    background-color: blue; }
+  .container.second p {
+    background-color: orange; }
+  .container:hover p {
+    color: white; }
+
+/*# sourceMappingURL=styles.css.map */
